@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answer-wrapper {
+  margin-top: 20px;
+}
+
+.answer {
+  margin-bottom: 10px;
+}
+
+.lesson-challenge.current {
+  padding: 4em 6em;
+  margin: 4em -6em;
+  -webkit-box-shadow: 0 4px 71px -31px #797eaa;
+
+}
+
+.lesson-challenge.current{
+  padding: 4em 6em;
+  margin: 4em -6em;
+  -webkit-box-shadow: 0 4px 71px -31 #d6c9a1;
+  box-shadow: 0 4px 71px -31 #1dc8b1;
+  border-radius: 20px;
+  border: 4px solid #777798;
+
+}
+
